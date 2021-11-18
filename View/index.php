@@ -20,21 +20,7 @@
             <input type="submit" id="btn_reg" value="Registrar">
         </form>
         <button class="btn_limpar" onclick="window.location.href='../Controller/limpar_tarefas.php'">Limpar</button>
-        <div id="lista">
-            <?php
-                foreach($_SESSION['tasks'] as $key => $value)
-                {
-                    $indice = $key +1;
-
-                    echo "
-                        <br>
-                        <a class='item'>#$indice: $value</a>
-                        <br>
-                    ";
-                }
-            
-            ?>
-        </div>
+        <iframe src="lista.php" id="lista"></iframe>
     </div>
 </body>
 </html>
