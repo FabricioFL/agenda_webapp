@@ -1,4 +1,21 @@
-@media screen and (min-width: 1681px) and (max-width:2560px){
+@media screen and (min-width: 1681px) and (max-width:2560px)
+{
+
+.err404
+{
+    display: grid;
+    justify-content: center;
+    margin-top: 8vw;
+    font-size: 4vw;
+    font-family: monospace;
+    color: #cf4c4c;
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+}
+
     .conteudo
 {
     margin-top: 1vw;
@@ -97,8 +114,24 @@
 
 }
 
-@media screen and (min-width: 1445px) and (max-width: 1680px){
+@media screen and (min-width: 1445px) and (max-width: 1680px)
+{
     
+    .err404
+    {
+        display: grid;
+        justify-content: center;
+        margin-top: 8vw;
+        font-size: 4vw;
+        font-family: monospace;
+        color: #cf4c4c;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
+    }
+
     .conteudo
     {
         margin-top: 1vw;
@@ -194,10 +227,26 @@
     
     
     
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1444px)
+{
+    
+    .err404
+    {
+        display: grid;
+        justify-content: center;
+        margin-top: 8vw;
+        font-size: 4vw;
+        font-family: monospace;
+        color: #cf4c4c;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
     }
 
-@media screen and (min-width: 1025px) and (max-width: 1444px){
-    
     .conteudo
     {
         margin-top: 1vw;
@@ -293,10 +342,26 @@
     
     
     
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px)
+{
+    
+    .err404
+    {
+        display: grid;
+        justify-content: center;
+        margin-top: 8vw;
+        font-size: 5.5vw;
+        font-family: monospace;
+        color: #cf4c4c;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
     }
 
-@media screen and (min-width: 641px) and (max-width: 1024px){
-    
     .conteudo
     {
         margin-top: 1vw;
@@ -392,11 +457,26 @@
     
     
     
+}
+    
+@media screen and (min-width: 10px) and (max-width: 640px)
+{
+    
+    .err404
+    {
+        display: grid;
+        justify-content: center;
+        margin-top: 8vw;
+        font-size: 7vw;
+        font-family: monospace;
+        color: #cf4c4c;
+        user-select: none;
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -webkit-user-drag: none;
     }
-    
 
-@media screen and (min-width: 10px) and (max-width: 640px){
-    
 .conteudo
 {
     margin-top: 10vw;
